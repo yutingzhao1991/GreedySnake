@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+		<meta charset="utf-8">
+        <title>HTML5 GreedySnake 多人联机贪吃蛇</title>
+        <link rel="stylesheet" href="css/style.css" />
+		<!-- Import EaselJS Framework -->
+		<script src="./lib/easel.js"></script>
+		<!-- End EaselJS Imports -->
+		<script src="lib/tangram-1.5.2.core.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="lib/sea-debug.js" data-main="modules/init"></script>
+    </head>
+    <body>
+    	<h3 class="score">SCORE:<span id="score">0</span></h3>
+    	<div class="content">
+    		<div class="leftbar">
+    			<div id="log">刚开始连接要等待一会，请耐心等待<br />游戏技巧：吃得更长，试图去缠绕其他人，干掉他们<br /></div>
+    			<div id="reset" class="btn">重玩</div>
+    			
+    		</div>
+    		
+    		<div class="canvasBg"><div id="hint">联机中，请稍等...</div><canvas id="canvas">您的浏览器不支持html5 Canvas请下载Chrome等支持HTML5的浏览器</canvas></div>
+    	</div>
+    	<div class="footer"><a href="http://www.yutingzhao.com" target="_blank">by @余廷钊</a><div>
+  <!-- Baidu Button BEGIN -->
+<script type="text/javascript" id="bdshare_js" data="type=slide&amp;img=0&amp;uid=495291" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+    document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+<!-- Baidu Button END -->  	
+    </body>
+</html>
