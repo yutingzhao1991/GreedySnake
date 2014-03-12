@@ -3,7 +3,7 @@
  */
 
 define(function (require) {
-	var HOST = "127.0.0.1";
+	var HOST = location.hostname;
 	var id = null;
 	var socket = null;
 	return {

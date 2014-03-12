@@ -1,8 +1,8 @@
 /***
+ *   project config
  ***/
 
 exports.config = {
-    //port: 9991
-    port: 80
+    port: 9991
 };
 

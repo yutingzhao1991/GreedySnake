@@ -1,8 +1,9 @@
 {
-   "name":"greadySnake",
-   "main":"./server.js",
-   "dependencies": {
-    "express": "2.5.1",
-    "socket.io": "0.9.6"
-  }
+    "version":"1.0.2",
+    "name":"greadySnake",
+    "main":"./server.js",
+    "dependencies": {
+        "express": "2.5.1",
+        "socket.io": "0.9.6"
+    }
 }
